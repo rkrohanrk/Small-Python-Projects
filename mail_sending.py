@@ -10,7 +10,7 @@ subject="send using python"
 body="this mail is send using python"
 
 msg="subject:{}\n\n\n.".format(subject,body)
-maillist=["rkumar2_be19@thapar.edu","rohan16091@gmail.com"]
+maillist=["email1@gmail.com","email2@gmail.com"]
 server.sendmail("rk359979@gmail.com",maillist,msg)
 print("Send successfully...!!")
 server.quit()
